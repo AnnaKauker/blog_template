@@ -3,8 +3,14 @@ layout: default
 title: Homepage
 ---
 
-<section">
+<section>
     <h1> Welcome to our homepage </h1>
+
+    {% for recipe in site.recipes %}
+
+    <a href="{{ recipe.url }}"> {{ recipe.title }}</a>
+
+    {% endfor %}
     
 
     
