@@ -3,3 +3,41 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+a {padding-right: 5%;
+    text-decoration: none;
+    display: inline-block;
+    }
+
+header,
+footer,
+section {padding: 5%;
+        border: 1px solid lightblue}
+
+.padded-1 {padding: 1rem;}
+
+.center {text-align: center;}
+
+.intro {
+        text-transform: uppercase;
+        background-color: lightcoral;
+}
+
+h1, 
+h2 {    padding-bottom: 5%;}
+
+.tag {  border: 1px solid;
+        padding: 0.3rem;
+        display: inline-block;
+        margin-top: 1rem;
+        border-radius: 3px;
+        }
+
+.bg-img {
+        background-size: cover;
+        background-position: center;
+      }
+
+.square {padding-bottom: 100%;}
+
+.landscape {padding: 60%;}
