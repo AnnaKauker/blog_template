@@ -2,7 +2,10 @@
 layout: default
 ---
 {{ content }}
-<section class="grid">
+<section class="grid padded">
+
+    {% if page.intro-header == true %}
+
     <div class="col-12 center  padded-1 margin-b">
 
     <h2>{{page.title | capitalize }}</h2>
@@ -10,6 +13,8 @@ layout: default
     <p>{{page.description}}</p>
 
     </div>
+
+    {% endif %}
 
     {% for post in site.categories[page.category] %}
 
