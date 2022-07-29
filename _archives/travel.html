@@ -1,0 +1,14 @@
+---
+layout: default
+title: travel Posts
+category: travel
+---
+
+<section>
+    {% for post in site.categories[page.category] %}
+
+    {{post.title}}
+    
+    {% endfor %}
+
+</section>
